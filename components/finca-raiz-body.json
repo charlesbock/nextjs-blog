@@ -1,0 +1,78 @@
+{
+    "filter": {
+        "offer": {
+            "slug": [
+                "rent"
+            ]
+        },
+        "property_type": {
+            "slug": [
+                "apartment"
+            ]
+        },
+        "locations": {
+            "location_point": [
+                [
+                    -74.81712,
+                    11.00525
+                ],
+                [
+                    -74.81511,
+                    11.00325
+                ]
+            ]
+        }
+    },
+    "fields": {
+        "exclude": [],
+        "include": [
+            "area",
+            "baths.id",
+            "baths.name",
+            "client.client_type",
+            "client.company_name",
+            "client.first_name",
+            "client.last_name",
+            "garages.name",
+            "is_new",
+            "locations.cities.name",
+            "locations.cities.slug",
+            "locations.countries.name",
+            "locations.countries.slug",
+            "locations.groups.name",
+            "locations.groups.slug",
+            "locations.groups.subgroups.name",
+            "locations.groups.subgroups.slug",
+            "locations.location_point",
+            "locations.neighbourhoods.name",
+            "locations.neighbourhoods.slug",
+            "locations.states.name",
+            "locations.states.slug",
+            "locations.view_map.slug",
+            "media.floor_plans.count",
+            "media.photos.list.id",
+            "media.photos.list.image.full_size",
+            "media.photos.list.is_main",
+            "media.videos.count",
+            "min_area",
+            "min_price",
+            "price",
+            "products.configuration.tag_name",
+            "products.label",
+            "products.name",
+            "products.slug",
+            "property_id",
+            "fr_property_id",
+            "rooms.name",
+            "title",
+            "property_type.name",
+            "offer.name",
+            "fr_parent_property_id"
+        ],
+        "limit": 100,
+        "offset": 0,
+        "ordering": [],
+        "platform": 40,
+        "with_algorithm": false
+    }
+}
